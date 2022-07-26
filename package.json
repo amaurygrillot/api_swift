@@ -1,0 +1,31 @@
+{
+  "name": "api_swift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "startLocally": "ts-node index.ts",
+    "build" : "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.12",
+    "@types/node": "^10.1.4",
+    "@types/uuid": "^8.3.0"
+  }
+}
